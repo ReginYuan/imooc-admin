@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     你好
-    <svg-icon icon="article" className="article"></svg-icon>
+    <svg-icon icon="article" className="article" color="red"></svg-icon>
     <svg-icon icon="https://res.lgdsunday.club/user.svg"></svg-icon>
   </div>
 </template>

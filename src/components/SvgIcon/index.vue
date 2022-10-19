@@ -8,7 +8,7 @@
   />
   <!-- 展示内部图标 -->
   <svg v-else class="svg-icon" :class="iconName" aria-hidden="true">
-    <use :xlink:href="iconName" />
+    <use :xlink:href="iconName" :fill="color" />
   </svg>
 </template>
 
@@ -23,6 +23,11 @@ const props = defineProps({
   },
   // 图标类名
   className: {
+    type: String,
+    default: ''
+  },
+  // 图标颜色
+  color: {
     type: String,
     default: ''
   }
