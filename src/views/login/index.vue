@@ -6,9 +6,7 @@
       </div>
       <el-form-item class="login-form-item">
         <span class="login-form-item-svg">
-          <el-icon>
-            <Avatar />
-          </el-icon>
+          <svg-icon icon="https://res.lgdsunday.club/user.svg"></svg-icon>
         </span>
         <el-input type="text" name="username" placeholder="username"></el-input>
       </el-form-item>
@@ -37,6 +35,7 @@
 <script setup>
 //  element-plus 导入组件可以直接使用
 import { Avatar } from '@element-plus/icons'
+import SvgIcon from '@/components/SvgIcon/index.vue'
 </script>
 
 <style lang="scss" scoped>
